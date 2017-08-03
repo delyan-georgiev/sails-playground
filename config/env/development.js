@@ -21,6 +21,13 @@ module.exports = {
   models: {
     connection: 'postgresqlServer',
     migrate: 'safe'
+  },
+  db: {
+    user: 'postgres',
+    password: 'auxionize',
+    host: 'localhost',
+    port: 5432,
+    name: 'sails'
   }
 
 };

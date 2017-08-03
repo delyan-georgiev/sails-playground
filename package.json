@@ -36,7 +36,10 @@
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "migration:create": "NODE_PATH=./ pg-migrate create",
+    "migration:up": "NODE_PATH=./ pg-migrate up",
+    "migration:down": "NODE_PATH=./ pg-migrate down"
   },
   "main": "app.js",
   "repository": {

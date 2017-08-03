@@ -17,11 +17,11 @@ export function index(req: any, res: any, next: Function): any {
 }
 
 export function getUser(req: any, res: any, next: Function): any {
-  let p1 = User.findOne({id: req.params.id});
-  let p2 = p1.populate('test', {where: {id:1}});
-  let p3 =p2.populate('company')
-  p3.then(function (x) {
-      console.error(x.fgdgdgege());
+  let p1 = User.findOne({ id: req.params.id});
+  // let p2 = p1.populate('test', {where: {id:1}});
+  // let p3 =p2.populate('company');
+  p1.then(function (x) {
+      // console.error(x.fgdgdgege());
       x.full_name = x.fullName();
       res.send(x);
     })
