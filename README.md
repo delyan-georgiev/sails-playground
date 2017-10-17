@@ -12,3 +12,5 @@ Rull number 1. Magento Sux. Kur
 5. Drink Coffe
 
 6. Drink more Coffe.
+
+7. Dell off some text.
