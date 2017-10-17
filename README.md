@@ -10,3 +10,5 @@ Rull number 1. Magento Sux. Kur
 4. Work hard, play hard.
 
 5. Drink Coffe
+
+6. Drink more Coffe.
